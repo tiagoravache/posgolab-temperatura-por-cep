@@ -1,0 +1,19 @@
+### Cenário 1 (Válido - 200)
+
+GET https://goexpert-labs-temperature-by-zipcode-xes33ejfna-uc.a.run.app/?cep=01311000
+
+### Cenário 2 (Válido - 200)
+
+GET https://goexpert-labs-temperature-by-zipcode-xes33ejfna-uc.a.run.app/?cep=59020120
+
+### Cenário 3 (Válido - 200)
+
+GET https://goexpert-labs-temperature-by-zipcode-xes33ejfna-uc.a.run.app/?cep=66017970
+
+### Cenário 4 (CEP inválido - 422)
+
+GET https://goexpert-labs-temperature-by-zipcode-xes33ejfna-uc.a.run.app/?cep=3
+
+### Cenário 5 (CEP inexistente - 404)
+
+GET https://goexpert-labs-temperature-by-zipcode-xes33ejfna-uc.a.run.app/?cep=33333333
